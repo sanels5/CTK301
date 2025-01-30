@@ -1,0 +1,51 @@
+#id {
+    color:red;
+    background-color: rgba(255, 182, 193, 0.842)
+}
+
+.section {
+    color: green;
+    background-color: rgba(172, 255, 47, 0.603)
+}
+
+.section2 {
+    color:#1060FF;
+    background-color: rgba(0, 255, 255, 0.562)
+}
+
+.section3 {
+    color: purple
+}
+
+p {
+    color: darkslateblue
+}
+
+ul {
+    color: rgb(0, 156, 0)
+}
+
+.span1 {
+    color:rgb(179, 2, 202)
+}
+
+.span2 {
+    color:rgb(0, 104, 35)
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+a:visited {
+    color:rgb(0, 170, 23)
+}
+
+a:hover {
+    color:yellow
+}
+
+#boarder {
+    background-color: rgba(255, 0, 0, 0.596)
+}
