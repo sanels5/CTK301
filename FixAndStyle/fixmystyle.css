@@ -1,0 +1,50 @@
+#lightpurple {
+    background-color: rgb(165, 174, 255);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue
+}
+
+.orange {
+    color: orange;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    color: blue
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
