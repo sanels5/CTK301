@@ -1,0 +1,137 @@
+body {
+    background-color: grey;
+}
+
+header {
+    grid-column: span 3;
+    margin: -22px 0 -22px 0;
+}
+
+header h1 a{
+    display: block;
+    text-decoration: none;
+    font-family: helvetica;
+    font-style:italic;
+    font-weight: normal;
+    color: #7fd9ff;
+    background-image: linear-gradient(to bottom, #00a1e7, #0091e3, #0080dd, #006ed5, #125bcb);
+    padding: 24px;
+    border-bottom:#1158c2 solid 4px;
+}
+
+header h1 a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 3;
+    background-color:#125bcb;
+    border-bottom:#1158c2 solid 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 0 0 -40px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-family:helvetica;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-image: linear-gradient(to bottom, #00a1e7, #0091e3, #0080dd, #006ed5, #125bcb);
+    width: 264px;
+    color: #7fd9ff;
+    padding: 16px;
+    margin-left: 1px;
+}
+
+nav li.invis {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #00a1e7, #0091e3, #0080dd, #006ed5, #125bcb);
+    width: 264px;
+    padding: 16px;
+}
+
+.invis {
+    color:#7fd9ff00;
+}
+
+nav li a:hover {
+    background-image: linear-gradient(to top, #00a1e7, #0091e3, #0080dd, #006ed5, #125bcb);
+    color: white;
+}
+
+aside {
+    grid-column: span 1;
+    background-color: #a2d8f0;
+    padding: 1em;
+    border-bottom:#1158c2 solid 4px;
+}
+
+aside h2 {
+    border-bottom: solid #1158c2 3px;
+    color: #1158c2;
+    font-family: Helvetica;
+    font-weight: normal;
+    margin-top: -4px;
+}
+
+aside p {
+    font-family: georgia;
+    font-weight: bold;
+    text-align:justify;
+}
+
+main img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 3px;
+    border:#1158c2 solid 3px;
+}
+
+main {
+    grid-column: span 2;
+    background-color: white;
+    padding: 1em;
+    border-bottom:#1158c2 solid 4px;
+}
+
+main h2 {
+    border-bottom: solid #1158c2 3px;
+    color: #1158c2;
+    font-family: Helvetica;
+    font-weight: normal;
+    margin-top: -4px;
+}
+
+main p {
+    font-family: Georgia;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+footer {
+    grid-column: span 3;
+    background-color: red;
+    margin: 0;
+    padding: 12px;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    border: 4px solid #1158c2;
+    margin: 1em auto;
+    background-color: white;
+    padding: 0;
+}
