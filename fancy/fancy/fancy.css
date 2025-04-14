@@ -1,0 +1,43 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 3px solid black;
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #df99c2;
+}
+
+.f-carousel {
+  --f-button-width: 50px;
+  --f-button-height: 50px;
+
+  --f-button-svg-width: 24px;
+  --f-button-svg-height: 24px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(161, 104, 179);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #616ab6;
+  --f-button-hover-bg: #9e9bca;
+  --f-button-active-bg: #5d3bac;
+}
+
+.f-carousel__dots {
+  display: none;
+}
