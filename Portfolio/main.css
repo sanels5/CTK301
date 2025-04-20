@@ -59,6 +59,25 @@ main p {
   height: 300px
 }
 
+main img {
+  height: 400px;
+}
+
+#myCarousel {
+  margin: 0px 200px 36px 200px;
+  width: 800px;
+  background-color:#D7BE33;
+  padding: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+}
+
+.f-carousel__dots {
+  display: none;
+}
+
 main h2 {
   font-weight: normal;
   font-family: Georgia, 'Times New Roman', Times, serif;
