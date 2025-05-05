@@ -1,0 +1,150 @@
+body {
+  background-image: linear-gradient(#7aaa2c, #2caa8f);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    background-color: #E3D26F;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    border-radius: 64px;
+  }
+  
+  header {
+    grid-column:span 12;
+  }
+
+  h1 {
+    display: inline-block;
+    color: #09864E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 54px;
+    font-weight: medium;
+    padding-left: 42px;
+  }
+  
+  h1 a{
+    padding:0;
+    margin-left:603px;
+    text-decoration: none;
+    color: #CE6664;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: medium;
+  }
+  
+  h1 a:hover {
+    color:#e28c8b
+  }
+
+  main {
+    grid-column: span 12;
+  }
+
+  .thechosen {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #004e4d;
+    background-color: #009e9b;
+    text-align: center;
+    width: 172px;
+    padding: 6px 0;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-right: 12px;
+    margin-top: 0;
+   }
+  
+   nav {
+     grid-column:span 12;
+     text-align: center;
+     margin-bottom: 48px;
+   }
+   
+   nav ul {
+     padding: 0;
+     margin: 0;
+   }
+   
+   nav li {
+     display: inline-block;
+   }
+   
+   nav li a {
+     display: block;
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 28px;
+     color: #005250;
+     background-color:#00CCC9;
+     text-align: center;
+     width: 172px;
+     padding: 6px 0;
+     border-top-left-radius: 16px;
+     border-bottom-right-radius: 16px;
+     margin-right: 12px;
+     margin-top: 0;
+     margin-bottom: 12px;
+   }
+   
+   nav li a:hover {
+     background-color:#00B8B5;
+   }
+  
+  h2 {
+    text-align: center;
+    font-size:32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #83678E;
+    margin-bottom: 24px;
+    margin-top: -8px;
+  }
+
+  .box {
+    background-color:#D7BE33;
+    border-radius: 16px;
+    width:828px;
+    height:516px ;
+    margin: 0 150px 48px 150px;
+    padding:36px;    
+  }
+
+  iframe {
+    width: 840px;
+    height: 472.5px;
+    margin-left: -6px;
+  }
+
+  
+  footer {
+    grid-column:span 12;
+    margin-top: 24px;
+    color: #99871E;
+    text-align: center;
+  }
+  
+  footer nav {
+    grid-column: span 12;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin-left: 28px;
+  }
+  
+  footer li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-right: 72px;
+  }
+  
+  footer li a {
+    color: #99871E;
+    font-size: 24px;
+  }
+  
+  footer li a:hover {
+    color: #81721d;
+  }
